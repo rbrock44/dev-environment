@@ -1,0 +1,16 @@
+{
+    "explorer.confirmDelete": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "none",
+    "auto-build.defaultEnv.name": "STM32F103RE_creality",
+    "explorer.confirmPasteNative": false,
+    "workbench.editor.empty.hint": "hidden",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "claudeCode.useTerminal": true
+}

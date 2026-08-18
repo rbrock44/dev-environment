@@ -1,0 +1,17 @@
+# JetBrains machine state - never commit these back in
+workspace/
+window.state.xml
+window.layouts.xml
+recentProjects.xml
+trusted-paths.xml
+jdk.table.xml
+path.macros.xml
+updates.xml
+*.key
+*.license
+ssl/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
