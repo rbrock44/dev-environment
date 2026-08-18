@@ -1,0 +1,48 @@
+{
+  "folders": [
+    { "name": "Directory (index of all sites)", "path": "../../directory" },
+    { "name": "Home Page", "path": "../../home-page" },
+    { "name": "Blog", "path": "../../blog" },
+    { "name": "Woodworking Projects", "path": "../../woodworking-projects" },
+    { "name": "Family Recipes", "path": "../../family-recipes" },
+    { "name": "Add Recipe", "path": "../../add-recipe" },
+    { "name": "Puzzles", "path": "../../puzzles" },
+    { "name": "Utilities", "path": "../../utilities" },
+    { "name": "Connect 4 (React)", "path": "../../connect-4" },
+    { "name": "Compare Achievements", "path": "../../compare-achievements" },
+    { "name": "Flash Cards", "path": "../../flash-cards" },
+    { "name": "Cleaning Schedule", "path": "../../cleaning-schedule" },
+    { "name": "Scorekeeping By Rounds", "path": "../../scorekeeping-by-rounds" },
+    { "name": "Enderle Cattle Co", "path": "../../enderle-cattle-company" },
+    { "name": "1705 David", "path": "../../1705-David" },
+    { "name": "Auction Advisor", "path": "../../auction-advisor" }
+  ],
+  "extensions": {
+    "recommendations": [
+      "angular.ng-template",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "yzhang.markdown-all-in-one",
+      "github.vscode-github-actions",
+      "editorconfig.editorconfig",
+      "github.copilot",
+      "github.copilot-chat",
+      "anthropic.claude-code"
+    ]
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.angular": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.angular": true,
+      "**/package-lock.json": true
+    },
+    "explorer.compactFolders": false
+  }
+}

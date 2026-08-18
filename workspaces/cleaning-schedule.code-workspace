@@ -1,0 +1,45 @@
+{
+  "folders": [
+    {
+      "name": "Cleaning Schedule (Angular)",
+      "path": "../../cleaning-schedule"
+    },
+    {
+      "name": "API (Kotlin/Spring)",
+      "path": "../../home-page-api"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "angular.ng-template",
+      "fwcd.kotlin",
+      "vscjava.vscode-gradle",
+      "vscjava.vscode-java-pack",
+      "github.vscode-github-actions",
+      "editorconfig.editorconfig",
+      "github.copilot",
+      "github.copilot-chat",
+      "anthropic.claude-code"
+    ]
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.angular": true,
+      "**/build": true,
+      "**/out": true,
+      "**/.gradle": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.angular": true,
+      "**/build": true,
+      "**/out": true,
+      "**/package-lock.json": true
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+  }
+}

@@ -11,6 +11,7 @@
   - [IntelliJ IDEA](#intellij-idea)
   - [Rider](#rider)
   - [VS Code](#vs-code)
+  - [Workspaces](#workspaces)
 - [Technologies](#-technologies)
 - [Getting Started (Local Setup)](#-getting-started-local-setup)
 
@@ -76,11 +77,30 @@ Target: `%APPDATA%\Code\User\`
 
 ---
 
+### Workspaces
+
+`workspaces/` holds VS Code multi-root workspace files that group related repos, each with the
+extension recommendations and settings that group needs:
+
+* `home-page.code-workspace`
+  * `home-page` (Angular) + `home-page-api` and `home-page-media-scraper` (Kotlin/Gradle) + `home-page-media-file` (data)
+* `cleaning-schedule.code-workspace`
+  * `cleaning-schedule` (Angular) + `home-page-api`, which holds its `CleaningScheduleController`
+* `websites.code-workspace`
+  * All 16 sites listed in the `directory` app, plus `directory` itself
+
+Paths are relative and assume the repos are siblings under `C:\workspace`. See
+`workspaces/README.md` for what is in each, which extensions they pull in and why, and the
+repos left out because they are not cloned locally.
+
+---
+
 ## 🛠 Technologies
 
 - IntelliJ IDEA
 - Rider
 - VS Code
+- JSON
 
 ---
 
