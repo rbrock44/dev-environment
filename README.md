@@ -4,20 +4,21 @@
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
-- [What's My Purpose?](#-whats-my-purpose)
-- [How to Use](#-how-to-use)
+- [What's My Purpose?](#whats-my-purpose)
+- [How to Use](#how-to-use)
   - [IntelliJ IDEA](#intellij-idea)
   - [Rider](#rider)
   - [VS Code](#vs-code)
   - [Workspaces](#workspaces)
-- [Technologies](#-technologies)
-- [Getting Started (Local Setup)](#-getting-started-local-setup)
+- [Technologies](#technologies)
+- [Getting Started (Local Setup)](#getting-started-local-setup)
+- [How to Contribute](#how-to-contribute)
 
 ---
 
-## 🧠 What's My Purpose?
+## What's My Purpose?
 
 This project holds the IDE and editor settings I want to survive a reinstall — code styles, keymaps, inspection profiles, and editor preferences.
 
@@ -27,7 +28,7 @@ AI tooling config (Claude Code settings, skills, agents) lives in [ai-config](ht
 
 ---
 
-## 🚦 How to Use
+## How to Use
 
 Copy the files into the matching config directory, then restart the IDE. Version numbers in the JetBrains paths change with each release — check what's actually installed before copying.
 
@@ -95,7 +96,7 @@ repos left out because they are not cloned locally.
 
 ---
 
-## 🛠 Technologies
+## Technologies
 
 - IntelliJ IDEA
 - Rider
@@ -104,11 +105,18 @@ repos left out because they are not cloned locally.
 
 ---
 
-## 🚀 Getting Started (Local Setup)
+## Getting Started (Local Setup)
 
 * Clone [repo](https://github.com/rbrock44/dev-environment)
 * Close the IDE you are about to configure — JetBrains IDEs rewrite these files on exit and will overwrite what you just copied
 * Copy the relevant folder into the target path above
 * Reopen the IDE
+
+---
+
+## How to Contribute
+
+Found a typo or a small, obvious fix? Open a PR directly.
+Want to change behavior or add something bigger? Open an issue first so we can talk it through before you put in the work.
 
 ---
