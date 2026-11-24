@@ -89,6 +89,8 @@ extension recommendations and settings that group needs:
   * `cleaning-schedule` (Angular) + `home-page-api`, which holds its `CleaningScheduleController`
 * `websites.code-workspace`
   * All 16 sites listed in the `directory` app, plus `directory` itself
+* `craft-showcase.code-workspace`
+  * `craft-showcase` (Angular) + `craft-showcase-images` (sample gallery)
 
 Paths are relative and assume the repos are siblings under `C:\workspace`. See
 `workspaces/README.md` for what is in each, which extensions they pull in and why, and the

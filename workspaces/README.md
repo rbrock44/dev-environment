@@ -48,9 +48,23 @@ Two entries in `directory` are not included because they are not cloned locally:
 [drive-status](https://github.com/rbrock44/drive-status) (the latter is commented out in
 `directory` anyway).
 
+## craft-showcase.code-workspace
+
+| Folder | Stack |
+| --- | --- |
+| `craft-showcase` | Angular (the site code, shared by every gallery's site) |
+| `craft-showcase-images` | data + Node/PowerShell scripts: the sample gallery and the template new galleries are copied from |
+
+Adds `ms-vscode.powershell` for the gallery's `setup.ps1` and `.cmd` launchers. Excludes
+`.gallery` (where `fetch-gallery` clones a gallery), and search skips `public/images`, the
+build's copy of the gallery's pictures.
+
+`kl-crafts-images` is a real person's private gallery and is left out; add a folder entry to
+work on it alongside the site.
+
 ## Extensions
 
-Common to all three:
+Common to all of them:
 
 | Extension | Why |
 | --- | --- |

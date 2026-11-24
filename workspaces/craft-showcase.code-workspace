@@ -1,0 +1,40 @@
+{
+  "folders": [
+    {
+      "name": "Craft Showcase (Angular)",
+      "path": "../../craft-showcase"
+    },
+    {
+      "name": "Sample Gallery (images)",
+      "path": "../../craft-showcase-images"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "angular.ng-template",
+      "ms-vscode.powershell",
+      "github.vscode-github-actions",
+      "editorconfig.editorconfig",
+      "github.copilot",
+      "github.copilot-chat",
+      "anthropic.claude-code"
+    ]
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.angular": true,
+      "**/.gallery": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.angular": true,
+      "**/.gallery": true,
+      "**/package-lock.json": true,
+      "public/images": true
+    }
+  }
+}
